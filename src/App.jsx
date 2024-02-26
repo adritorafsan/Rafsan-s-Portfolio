@@ -16,9 +16,9 @@ function App() {
     <div >
     
        <Navbar />
+       <Hero />
       
       {/*
-       <Hero />
       <About />
       <Services />
       <Project />
