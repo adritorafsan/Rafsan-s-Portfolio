@@ -4,7 +4,7 @@ import heroimg from '../assets/Hero.jpg'
 const Hero = () => {
   return (
     <>
-    <main className='md:px-4 px-4 max-w-screen-2xl mt-48  mx-auto '>
+    <main className='md:px-4 px-4 max-w-screen-2xl h-screen flex justify-center items-center mt-48  mx-auto '>
       <div className='flex md:flex-row gap-8 md:gap-0  flex-col-reverse justify-center items-center'>
         {/* For Text Section */}
         <div className='space-y-2   py-2'>
@@ -18,7 +18,7 @@ const Hero = () => {
 
         {/* For Images */}
         <div >
-          <img src={heroimg}  alt="Image Not Found" className='md:h-[400px] h-[340px] w-[500px] rounded-[45px] shadow-2xl md:w-[400px]' />
+          <img src={heroimg}  alt="Image Not Found" className='lg:h-[400px] h-[340px] w-[500px] rounded-[45px] shadow-2xl md:w-[400px]' />
         </div>
       </div>
     </main>
