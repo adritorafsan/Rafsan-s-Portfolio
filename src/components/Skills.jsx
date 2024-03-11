@@ -5,8 +5,8 @@ const Skills = () => {
     return (
         <>
             <section className="md:px-4 px-4 max-w-screen-2xl  mt-28 mx-auto">
-                <div className="container ">
-                    <div className="flex md:flex-row flex-col justify-between items-center">
+                <div className="container  ">
+                    <div className="flex md:flex-row flex-col md:space-y-0 space-y-6 justify-between items-center">
                         <div className="md:w-1/4 w-full dark:text-white">
                             <SkillsLevel  skillname="HTML" parcentage ="90%" />
                             <SkillsLevel  skillname="CSS" parcentage ="93%" />

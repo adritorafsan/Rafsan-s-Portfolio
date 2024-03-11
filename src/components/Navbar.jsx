@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-secondary shadow-2xl dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0">
+      <nav className="bg-secondary  shadow-2xl dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0">
         <div className="container flex justify-between py-3">
           <h2 className="text-3xl text-primary font-bold  ">CodeCraft</h2>
           <div className="flex items-center gap-6">
